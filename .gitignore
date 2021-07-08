@@ -1,3 +1,5 @@
 
 models/svm_model.pkl
 models/svm_fasttext_model.pkl
+data/cleaned.csv
+data/cleaned_df.csv
