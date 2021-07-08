@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><br>
+    <meta charset="UTF-8">
+    <title>Text Prediction</title>
+    <h1>Text Prediction</h1>
+</head>
+<style>
+    table {width: 50%;}
+    th {background-color: #17857f;color: white;}
+    th, td {text-align: center;padding: 5px;}
+    tr:hover {background-color: #a9d6ff;}
+
+</style>
+<body style="line-height:250%">
+    Please provide list of words you want to check. Separate each item with a comma:
+    <form action = "http://localhost:5000/result" method = "POST">
+        Input:  <input type="text" name="Input"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <div class=page>
+        {% for table in tables %}
+                {{ table|safe }}
+        {% endfor %}
+    </div>
+</body>
+</html>
