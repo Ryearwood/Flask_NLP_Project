@@ -1,0 +1,11 @@
+pandas
+numpy==1.19.2
+flask==2.0.1
+scikit-learn==0.24.0
+pickleshare==0.7.5
+tensorflow-cpu
+keras==2.4.3
+nltk==3.6.2
+Werkzeug==2.0.1
+requests==2.25.1
+gensim==3.8.3
