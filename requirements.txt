@@ -6,6 +6,6 @@ pickleshare==0.7.5
 tensorflow-cpu
 keras==2.4.3
 nltk==3.6.6
-Werkzeug==2.0.1
+Werkzeug==2.3.8
 requests==2.25.1
 gensim==3.8.3
